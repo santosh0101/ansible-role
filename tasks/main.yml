@@ -4,7 +4,7 @@
         name: apache2
         state: present
         update_cache: yes
-    - name: Copy file with owner and permissions
+    - name: opy file with owner and permissions
       ansible.builtin.copy:
         src: files/index.html
         dest: /var/www/html
